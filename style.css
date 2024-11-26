@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+.div1{ 
+    border: 2px solid aqua;
+    border-top-color: blueviolet;
+    border-bottom-color: blueviolet;
+    border-radius: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.div1>h2{
+    color: white;
+}
+.div1>h2:hover{
+    color: blueviolet;
+}
+
+.sum-btn{
+    background-color: red;
+    color: white;
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 8px;
+}
+.sum-btn:hover{
+    box-shadow: 3px 3px 10px white;
+}
+
+.min-btn{
+    background-color: blue;
+    color: white;
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 8px;
+}
+.min-btn:hover{
+    box-shadow: 3px 3px 10px white;
+}
+
+.mul-btn{
+    background-color: blue;
+    color: white;
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+.mul-btn:hover{
+    box-shadow: 3px 3px 10px white;
+}
+
+.div-btn{
+    background-color: green;
+    color: white;
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 8px;
+}
+.div-btn:hover{
+    box-shadow: 3px 3px 10px white;
+}
+
+.mod-btn{
+    background-color: green;
+    color: white;
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+.mod-btn:hover{
+    box-shadow: 3px 3px 10px white;
+}
+
+.div2{
+    border: 2px solid aqua;
+    border-top-color: blueviolet;
+    border-bottom-color: blueviolet;
+    border-radius: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.inp{
+    padding: 3px;
+    border-radius: 6px;
+}
+.btn{
+    width: 90px;
+    height: 25px;
+    color: white;
+    background-color: rgb(7, 175, 197);
+}
+.btn:hover{
+    transform: scale(1.2);
+}
