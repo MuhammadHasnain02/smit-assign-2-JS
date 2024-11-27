@@ -105,3 +105,91 @@ body{
 .btn:hover{
     transform: scale(1.2);
 }
+
+/* // Screen Size 1200px check  */
+@media (max-width: 1399px) { 
+    .div1 {
+        margin-left: 410px;
+        margin-right: 410px;
+    }
+    .div2 {
+        margin-left: 410px;
+        margin-right: 410px;
+    }
+} 
+/* // Screen Size 992px check  */
+@media (max-width: 1199px) {
+    .div1 {
+        margin-left: 310px;
+        margin-right: 310px;
+    }
+    .div2 {
+        margin-left: 310px;
+        margin-right: 310px;
+    }
+ } 
+/* // Screen Size 768px check  */
+@media (max-width: 991px) {
+    .div1 {
+        margin-left: 210px;
+        margin-right: 210px;
+    }
+    .div2 {
+        margin-left: 210px;
+        margin-right: 210px;
+    }
+ }
+/* // Screen Size 576px check  */
+@media (max-width: 767px) {
+    .div1 {
+        margin-left: 115px;
+        margin-right: 115px;
+    }
+    .div2 {
+        margin-left: 115px;
+        margin-right: 115px;
+    }
+ }
+/* // Screen Size All mobile check  */
+@media (max-width: 575px) {
+    .div1 {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .div1>h2 {
+        font-size: 18px;
+    }
+    .div1>.inp {
+        width: 100px;
+    }
+    .sum-btn {
+        width: 46px;
+        height: 28px;
+        margin-right: 3px;
+    }
+    .min-btn {
+        width: 46px;
+        height: 28px;
+        margin-right: 3px;
+    }
+    .mul-btn {
+        width: 46px;
+        height: 28px;
+        margin-right: 3px;
+    }
+    .div-btn {
+        width: 46px;
+        height: 28px;
+        margin-right: 3px;
+    }
+    .mod-btn {
+        width: 46px;
+        height: 28px;
+        margin-right: 3px;
+    }
+    .div2 {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+}
